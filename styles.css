@@ -71,11 +71,10 @@ body {
 
 .hero h1 { animation-delay: 80ms; }
 .hero .subtitle { animation-delay: 180ms; }
-.hero-art { animation-delay: 240ms; }
-.skins { animation-delay: 320ms; }
-.controls { animation-delay: 400ms; }
-.status { animation-delay: 480ms; }
-.log { animation-delay: 560ms; }
+.skins { animation-delay: 240ms; }
+.controls { animation-delay: 320ms; }
+.status { animation-delay: 400ms; }
+.log { animation-delay: 480ms; }
 
 .kicker {
   margin: 0;
@@ -106,42 +105,6 @@ h2 {
   margin-top: 0.7rem;
   color: var(--muted);
   max-width: 62ch;
-}
-
-.hero-art {
-  margin: 1rem 0 0;
-  border-radius: 1rem;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
-  opacity: 0;
-  transform: translateY(16px);
-  animation: riseUp 550ms ease-out forwards;
-  position: relative;
-}
-
-.hero-art img {
-  width: 100%;
-  max-height: 320px;
-  object-fit: cover;
-  display: block;
-  filter: saturate(1.08) contrast(1.02);
-}
-
-.hero-art-caption {
-  margin: 0;
-  position: absolute;
-  left: 0.7rem;
-  right: 0.7rem;
-  bottom: 0.6rem;
-  padding: 0.4rem 0.55rem;
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  color: #fef3c7;
-  background: rgba(2, 8, 23, 0.7);
-  border: 1px solid rgba(254, 243, 199, 0.2);
-  border-radius: 0.5rem;
 }
 
 .card {
